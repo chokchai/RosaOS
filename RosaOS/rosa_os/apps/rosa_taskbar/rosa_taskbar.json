@@ -1,0 +1,7 @@
+{
+    "about" : {
+        "name" : "Rosa Taskbar"
+    },
+    "js" : [ "js/main" ],
+    "php" : [ "php/rosa_taskbar" ]
+}

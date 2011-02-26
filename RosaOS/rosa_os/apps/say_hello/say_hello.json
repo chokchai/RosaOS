@@ -1,0 +1,11 @@
+{
+    "icon" : {
+        "title" : "Say Hello",
+        "iconImage" : "hello.png"
+    },
+    "onStart" : {
+        "appName" : "SayHello", 
+        "param" : []
+    },
+    "js" : [ "hello" ]
+}

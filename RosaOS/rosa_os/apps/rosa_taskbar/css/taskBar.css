@@ -1,0 +1,144 @@
+.taskbar {
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    bottom:0px;
+    border-top: 1px solid #B3B4BD;
+    background-color: #EEEEEE;
+    z-index: 99999;
+}
+
+#start {
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    width: 50px;
+    padding: 8px 10px 0 10px;
+    height: 30px;
+    border-right: 1px solid #B3B4BD;
+}
+
+#task {
+    float: left;
+}
+
+#notification {
+    float: right;
+    width: 120px;
+    height: 30px;
+    border-left: 1px solid #B3B4BD;
+}
+
+.taskitem-focus {
+    background-color: #FFFFFF !important;
+}
+
+.taskitem {
+    border-right: 1px solid #B3B4BD;
+    background-color: #EEEEEE;
+    float: left;
+    width: 150px;
+    cursor: pointer;
+}
+
+.task_icon {
+    float: left;
+    height: 24px;
+    width: 24px;
+}
+
+.task_title {
+    float: left;
+    color: #333333;
+    text-align: left;
+    padding-top: 8px;
+    width: 112px;
+    height: 16px;
+    overflow: hidden;
+}
+
+.st_wrap_menu {
+    position: absolute;
+    left: 0px;
+    bottom: 31px;
+    z-index: 99999;
+    height: 400px;
+    width: 350px;
+    padding: 5px;
+    background-color: #eeeeee;
+    border: 1px solid #999999;
+}
+
+.st_wrap_apps {
+    float: left;
+    width: 220px;
+    height: 400px;
+}
+
+.wrap_const_apps {
+    float: left;
+    margin-left: 5px;
+    width: 125px;
+    height: 400px;
+}
+
+.const_apps {
+    height: 360px;
+}
+
+.wrap_logoff {
+    height: 40px;
+}
+
+.wrap_logoff > a {
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.wrap_logoff > a > span {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.st_app_list {
+    border: 1px solid #999999;
+    height: 358px;
+    overflow: auto;
+}
+
+.st_search {
+    height: 40px;
+}
+
+.st_search_input {
+    width: 212px;
+    margin: 10px 0 0 0;
+    border: 1px solid #999999;
+    padding: 3px;
+}
+
+.st_app_install {
+    overflow: hidden;
+    height: 18px;
+    padding:13px 0 10px 47px;
+    background-repeat: no-repeat !important;
+    background-position: 5px center !important;
+    border-bottom: 1px solid #999999;
+    cursor: default;
+}
+
+.st_app_default {
+    overflow: hidden;
+    height: 18px;
+    padding:13px 10px 10px 10px;
+    border-bottom: 1px solid #eeeeee;
+    cursor: default;
+}
+
+.st_app_default.separator {
+    border-bottom: 1px solid #999999;
+}
+
+.st_app.hover {
+    background-color: #FFFFFF;
+}

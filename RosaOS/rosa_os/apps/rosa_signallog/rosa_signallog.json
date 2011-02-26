@@ -1,0 +1,12 @@
+{
+    "icon" : {
+        "title" : "Signal Log",
+        "iconImage" : "icon.png"
+    },
+    "onStart" : {
+        "appName" : "SignalLog",
+        "param" : []
+    },
+    "css" : [ "style" ],
+    "js" : [ "main" ]
+}

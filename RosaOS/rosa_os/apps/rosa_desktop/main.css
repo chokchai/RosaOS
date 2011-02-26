@@ -1,0 +1,72 @@
+#rosa_app_desktop {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.dt_icon {
+    position: absolute;
+    width: 74px;
+    height: 69px;
+    margin: 5px;
+    padding-top: 5px;
+    cursor: default;
+}
+
+.dt_icon > .rosa_icons_32 {
+    margin: 0 auto !important;
+}
+
+.dt_icon_name {
+    margin: 2px;
+    width: 70px;
+    height: 28px;
+    font-size: 12px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.dt_icon.hover, .dt_icon.ui-selected  {
+    border: 1px solid #A6C9E2;
+    margin: 4px !important;
+}
+
+.dt_icon.ui-selected {
+    background-color: #D1E5F5;
+}
+
+.context_menu {
+    width: 120px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    position: absolute;
+    z-index: 100000;
+}
+
+.context_menu li.separator {
+    border-top: 1px solid #cccccc;
+}
+
+.context_menu li.hover {
+    background: #89B7DA;
+}
+
+.context_menu li.hover a {
+    color: #ffffff;
+}
+
+.context_menu li.disabled a {
+    color: #AAAAAA;
+    cursor: default;
+    background-color: #eeeeee !important;
+}
+
+.context_menu a {
+    display: block;
+    line-height: 20px;
+    padding: 1px 5px 1px 28px;
+    text-decoration: none;
+    color: #333333;
+    background-repeat: no-repeat;
+    background-position: 6px center;
+    height: 20px;
+}

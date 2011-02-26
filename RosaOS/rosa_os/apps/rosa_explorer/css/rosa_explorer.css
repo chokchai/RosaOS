@@ -1,0 +1,117 @@
+/*----- SMALL ----------------------------------------------------------------*/
+
+.rosa_file_sm_icons {
+    border-top: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
+    padding:12px 5px 0 0px;
+    overflow: hidden;
+    height:25px;
+}
+
+.rosa_file_sm_icons_focus {
+    border: 1px solid #A6C9E2;
+}
+
+/*----- MED ------------------------------------------------------------------*/
+
+.rosa_file_med_icons {
+    margin: 5px;
+    padding: 10px;
+    width: 70px;
+    float:left;
+    overflow: hidden;
+}
+
+.rosa_file_med_icons_focus {
+    margin: 4px;
+    border: 1px solid #A6C9E2;
+}
+
+.rosa_file_med_icons_full_focus {
+    margin: 4px;
+    background-color: #D1E5F5;
+    border: 1px solid #A6C9E2;
+}
+
+
+/*----- MED , SM -------------------------------------------------------------*/
+
+.rosa_file_med_icons_full_focus > input, .rosa_file_sm_icons_full_focus > input {
+    background-color: #D1E5F5;
+}
+
+.rosa_file_med_icons > input {
+    font-size: 13px;
+    border: 0px;
+    padding: 3px;
+    width: 64px;
+    text-align: center;
+}
+
+/*----- MAIN -----------------------------------------------------------------*/
+
+.rosa_ex_main {
+    width: 640px;
+    height: 480px;
+}
+
+.rosa_ex_path {
+    padding: 5px;
+}
+
+.rosa_ex_content_wrap {
+    padding: 5px 15px 45px 15px;
+    overflow: auto;
+}
+
+.rosa_ex_drop_area {
+    background-color: #c8dee8;
+}
+
+.ui-selectable-helper {
+    z-index : 9999 !important;
+}
+
+.rosa_ex_content > .ui-selected {
+    border: 1px solid #A6C9E2;
+    background-color: #D1E5F5;
+}
+
+.rosa_ex_content > .ui-selecting {
+    border: 1px solid #A6C9E2;
+    background-color: #D1E5F5;
+}
+
+.path_input, .search_input {
+    padding: 5px;
+    border:1px solid #cccccc;
+}
+
+.rosa_ex_menu {
+    margin-top: 5px;
+    background-color: #eeeeee;
+    border-top:1px solid #cccccc;
+    height: 29px;
+    padding: 0 5px;
+}
+
+.rosa_ex_menu > div {
+    color: #666666;
+    height: 13px;
+    padding:8px;
+    border-left:1px solid #eeeeee;
+    border-right:1px solid #eeeeee;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.rosa_ex_button_hover {
+    color: #333333;
+    background-color: #ffffff;
+    border-left:1px solid #cccccc !important;
+    border-right:1px solid #cccccc !important;
+}
+
+/*----- ICONS -----*/

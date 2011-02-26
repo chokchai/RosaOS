@@ -1,0 +1,25 @@
+{
+    "icon" : {
+        "title" : "Rosa Notepad",
+        "iconImage" : "rosa_notepad.png"
+    },
+    "onStart" : {
+        "appName" : "RosaNotepad",
+        "param" : []
+    },
+    "about" : {
+        "name" : "Rosa Notepad",
+        "version" : "1.0",
+        "description" : "Official Text Editor from Rosa-OS Founder",
+        "developer" : "Chokchai Puttan",
+        "email" : "chokchai.puttan@gmail.com",
+        "website" : "chokchaiputtan.blogspot.com"
+    },
+    "js" : ["js/rosa_notepad"],
+    "css" : [],
+    "php" : [
+        { "name" : "notepad",
+          "file" : "php/rosa_notepad"
+        }
+    ]
+}

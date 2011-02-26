@@ -1,0 +1,11 @@
+{
+    "icon" : {
+        "iconImage" : "musicplayer.png",
+        "title": "Rosa MusicPlayer"
+    },
+    "onStart" : {
+        "appName" : "RosaMusicPlayer",
+        "param" : []
+    },
+    "js" : ["musicplayer"]
+}

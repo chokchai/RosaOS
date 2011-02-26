@@ -1,0 +1,18 @@
+.rbrowse_wrap {
+    padding: 5px 20px;
+}
+
+.rbrowse_file_name {
+    padding: 3px;
+    border: 1px solid #cccccc;
+    width: 265px;
+    margin-left: 5px;
+}
+
+.rbrowse_file {
+    font-size: 13px;
+}
+
+.rbrowse_button {
+    margin-top: 5px;
+}

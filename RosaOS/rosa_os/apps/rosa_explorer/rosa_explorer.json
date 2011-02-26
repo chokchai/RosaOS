@@ -1,0 +1,14 @@
+{
+    "icon" : {
+        "title" : "Rosa Explorer",
+        "iconImage" : "rosa_explorer.png"
+    },
+    "onStart" : {
+        "appName" : "RosaExplorer",
+        "param" : ["drive://"]
+    },
+    "about" : {
+        "name" : "RosaExplorer"
+    },
+    "js" : [ "js/rosa_explorer" ]
+}

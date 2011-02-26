@@ -1,0 +1,126 @@
+body {
+    min-width: 1000px;
+}
+
+#admin_header {
+    height: 43px;
+    margin: 7px 0 0 155px;
+}
+
+#admin_header h1 {
+    font-size: 28px;
+}
+
+#admin_menu {
+    float: left;
+    margin-top: 20px;
+    width: 150px;
+}
+
+#admin_menu li {
+    min-width: 150px;
+    background-color: #ffffff;
+}
+
+#admin_menu li a {
+    display: block;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
+
+#admin_menu li a:hover {
+    background-color: #DDECF7;
+}
+
+#admin_menu li.selected a:hover {
+    background-color: #316AC5 !important;
+}
+
+#admin_menu li.selected {
+    background-color: #316AC5 !important;
+}
+
+#admin_menu li.selected a {
+    color: #ffffff !important;
+}
+
+#admin_content {
+    float: left;
+    overflow: auto;
+    min-height: 500px;
+    min-width: 800px;
+    padding: 10px;
+    border-left: 5px solid #316AC5;
+    border-top: 5px solid #316AC5;
+    border-bottom: 5px solid #316AC5;
+}
+
+#admin_footer {
+    color: #999999;
+    text-align: center;
+    margin:5px 0 0 150px;
+}
+
+#admin_content_header {
+    background-color: #DDECF7;
+    font-size: 18px;
+    color: #000000;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#admin_content_header a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#admin_content_header a:hover {
+    text-decoration: underline;
+}
+
+/*------------------------------------------------------------------------------
+ * UTILITY
+ *----------------------------------------------------------------------------*/
+
+.admin_table th {
+    width: 100%;
+    background-color: #316AC5;
+    color: #ffffff;
+    border: 1px solid #DDECF7;
+    padding: 5px !important;
+    text-align: center;
+}
+
+.admin_table td, .admin_table th {
+    border: 1px solid #DDECF7;
+    padding: 3px;
+}
+
+.admin_table td > a {
+    color: #316AC5;
+    display: block;
+    text-decoration: none;
+}
+
+.admin_table td > a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.error {
+    background-color: lightcoral;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.complete {
+    background-color: papayawhip;
+    color: #333333;
+    padding: 5px;
+}

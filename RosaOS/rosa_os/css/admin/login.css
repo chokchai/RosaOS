@@ -1,0 +1,25 @@
+.r_dialog {
+    width:250px;
+    padding-left: 10px;
+    background-color: #ffffff;
+}
+
+.r_dialog h1 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.r_table {
+    font-size: 12px;
+    width: 100%;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.text_input {
+    padding: 3px;
+    border: 1px solid #bbbbbb;
+}
+

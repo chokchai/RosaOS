@@ -1,0 +1,11 @@
+{
+    "icon" : {
+        "iconImage" : "movieplayer.png",
+        "title": "Rosa MoviePlayer"
+    },
+    "onStart" : {
+        "appName" : "RosaMoviePlayer",
+        "param" : []
+    },
+    "js" : ["movieplayer"]
+}

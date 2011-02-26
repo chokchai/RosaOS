@@ -1,0 +1,14 @@
+{
+    "icon" : {
+        "title" : "Firebug lite",
+        "iconImage" : "firebuglite.png"
+    },
+    "onStart" : {
+        "appName" : "Firebuglite",
+        "param" : []
+    },
+    "about" : {
+        "name" : "FireBug Lite"
+    },
+    "js" : ["firebuglite_app"]
+}

@@ -1,0 +1,21 @@
+{
+    "about" : {
+        "name": "Hello",
+        "description": "Rosa Example Application",
+        "version": "1.0",
+        "developer": "Chokchai Puttan",
+        "email": "chokchai.puttan@gmail.com",
+        "website": "http://chokchaiputtan.blogspot.com/"
+    },
+    "icon" : {
+        "title" : "Hello World",
+        "iconImage" : "hello.png"
+    },
+    "onStart" : {
+        "appName" : "Hello",
+        "param" : []
+    },
+    "js" : [ "helloClient" ],
+    "css" : [ "helloStyle" ],
+    "php" : [ "helloServer" ]
+}

@@ -1,0 +1,12 @@
+.table {
+    margin: 50px auto;
+}
+
+.table td {
+    padding: 5px;
+}
+
+.table input {
+    padding: 3px;
+    border: 1px solid #999999;
+}

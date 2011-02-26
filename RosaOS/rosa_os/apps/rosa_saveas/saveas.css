@@ -1,0 +1,18 @@
+.rsave_wrap {
+    padding: 5px 20px;
+}
+
+.rsave_file_name {
+    padding: 3px;
+    border: 1px solid #cccccc;
+    width: 265px;
+    margin-left: 5px;
+}
+
+.rsave_file {
+    font-size: 13px;
+}
+
+.rsave_button {
+    margin-top: 5px;
+}

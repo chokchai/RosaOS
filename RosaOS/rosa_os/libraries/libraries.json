@@ -1,0 +1,14 @@
+{
+    "file" : {
+        "classname" : "File_System",
+        "file" : "file_system"
+    },
+    "apps" : {
+        "classname" : "Apps_Manager",
+        "file" : "apps_manager"
+    },
+    "user" : {
+        "classname" : "User_Manager",
+        "file" : "user_manager"
+    }
+}

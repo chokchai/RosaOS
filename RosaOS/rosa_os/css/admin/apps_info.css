@@ -1,0 +1,41 @@
+.app_table {
+    width: 100%;
+    outline: 1px solid #DDECF7;
+    border: 5px solid #ffffff;
+}
+.app_table td {
+    padding: 5px;
+    color: #666666;
+    border-bottom: 1px solid #DDECF7;
+}
+
+.app_table .header {
+    background-color: #DDECF7;
+    font-size: 15px;
+    color: #000000;
+}
+
+.app_table table {
+    width: 100%;
+}
+
+.app_table table td {
+    border-bottom: 1px solid #ffffff;
+}
+
+.app_dir_wrap {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #DDECF7;
+}
+
+.app_dir_header {
+    background-color: #DDECF7;
+    padding: 5px;
+}
+
+.app_dir {
+    padding: 5px;
+    color: #666666;
+}
+

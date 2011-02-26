@@ -1,0 +1,24 @@
+.rename_wrap {
+    padding: 10px;
+}
+
+.rename_icon {
+    float: left;
+}
+
+.rename_wrap_input {
+    padding: 5px;
+    float: left;
+}
+
+.rename_wrap_input > textarea {
+    font: 12px;
+    padding: 3px;
+    border: 1px solid #bbbbbb;
+    width: 220px;
+    height: 24px;
+}
+
+.rename_wrap_input > textarea.rename_disable {
+    background-color: #eeeeee;
+}

@@ -1,0 +1,11 @@
+{
+    "icon" : {
+        "iconImage" : "rosa_taskmanager.png",
+        "title" : "Rosa TaskManager"
+    },
+    "onStart" : {
+        "appName" : "RosaTaskManager",
+        "param" : []
+    },
+    "js" : ["js/main"]
+}

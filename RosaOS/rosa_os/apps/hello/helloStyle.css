@@ -1,0 +1,30 @@
+.hello .message {
+    font-weight: bold;
+}
+
+.hello .counter {
+    color: #228811;
+    padding: 3px;
+}
+
+.hello .type {
+    color: #0000FF;
+    padding: 3px;
+}
+
+.hello .processID {
+    color: #990000;
+    padding: 3px;
+}
+
+.hello .date {
+    color: #FF9933;
+    padding: 3px;
+}
+
+.hello #signal_log {
+    border: 1px solid #666666;
+    padding: 3px;
+}
+
+
